@@ -22,10 +22,8 @@ const ItemDetail = ({id, nombre, precio, img, stock}) => {
         <h3>Precio {precio} </h3>
         <h3>ID: {id}</h3>
         <img src={img} alt={nombre} />
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, labore. Facilis commodi harum eligendi eum amet quia nesciunt asperiores. Quibusdam voluptates assumenda ipsam magni dignissimos totam ex culpa maiores atque?</p>
-
+        <p>Es un modelo de las Yeezy Boost 350 V2 que parte de una base negra con notas de rojo, azul, rosa y amarillo. Además de ser parte de la marca adidas Yeezy, Yechiel es un nombre de niño hebreo que significa «Dios vive». De forma explícita, Ye pretendía simbolizar la trascendencia de Dios con esta combinación de colores sobrenatural.</p>
         {
-          //Acá empleamos la logica de montaje y desmotaje del contador
 
           agregarCantidad > 0 ? (<Link to="/cart"> Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
         }

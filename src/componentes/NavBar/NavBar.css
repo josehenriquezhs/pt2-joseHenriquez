@@ -2,10 +2,10 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 15px solid rgb(215, 50, 50);
+    border-bottom: 15px solid rgb(17, 13, 13);
 }
 
-.logoMarolio {
+.logogoat {
     width: 150px;
 }
 

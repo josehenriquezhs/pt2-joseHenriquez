@@ -1,8 +1,8 @@
 const misProductos = [
-    { id: "1", nombre: "Yerba", stock: 10, precio: 10000, img: "../img/yerba.jpg", idCat: "lacteos" },
-    { id: "2", nombre: "Fideos", stock: 12, precio: 200, img: "../img/fideos.jpg", idCat:"lacteos" },
-    { id: "3", nombre: "Arroz", stock: 5, precio: 300, img: "../img/arroz.jpg", idCat:"almacen" }, 
-    { id: "4", nombre: "Aceite", stock: 7, precio: 900, img: "../img/aceite.jpg", idCat:"almacen" },
+    { id: "1", nombre: "Zapatillas Foam RNNR Ararat", stock: 10, precio: 10000, img: "../img/yezzy_1.png", idCat: "lacteos" },
+    { id: "2", nombre: "Sandalias Yeezy Ochre", stock: 12, precio: 15000, img: "../img/yezzy_2.png", idCat:"lacteos" },
+    { id: "3", nombre: "Zapatillas Yeezy 700 V3", stock: 5, precio: 15000, img: "../img/yezzy_3.png", idCat:"almacen" }, 
+    { id: "4", nombre: "Zapatillas Yeezy Boost 350", stock: 7, precio: 10000, img: "../img/yezzy_4.jpg", idCat:"almacen" },
 ]
 
 export const getProductos = () => {
@@ -12,10 +12,6 @@ export const getProductos = () => {
         }, 100)
     })
 }
-
-
-//Actividad after: Agregar el datalle del producto
-//Crear una funcion similar a la anterior pero que solo nos retorne un solo item
 
 export const getUnProducto = (id) => {
     return new Promise (resolve =>{
