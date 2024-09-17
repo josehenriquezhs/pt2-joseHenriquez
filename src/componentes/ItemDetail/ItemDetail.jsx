@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 
 
 const ItemDetail = ({id, nombre, precio, img, stock}) => {
- // creamos un estado local con la cantidad de productos agregados
+ 
   const [agregarCantidad, setAgregarCantidad] = useState(0)
 
-  //cremaos una funcion manejadora de la cantidad:
+ 
 
   const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
